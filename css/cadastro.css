@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.container{position: absolute;
+    top: 10%;
+    right: 10%;
+    left: 10%;
+    bottom: 10%;
+    background-color: #21629e;
+    height: 80%;
+    width: 80%;
+    border-radius: 30px;
+}
+.center{
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    color: #ffffff;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+}
+.center h1{
+    font-family: 'Roboto', sans-serif, bold;
+    font-size: 25px;
+}
+.center h3{
+    padding-top: 15px;
+    font-size: 15px;
+}
+.txt1{
+    left: 15%;
+    top: 45%;
+    position: absolute;
+    height: 15%;
+    width: 75%;
+    text-align: left;
+}
+.txt1 input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.txt2{
+    left: 15%;
+    top: 70%;
+    position: absolute;
+    height: 15%;
+    width: 75%;
+    text-align: left;
+}
+.txt2 input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.txt3{
+    left: 15%;
+    top: 80%;
+    position: absolute;
+    height: 15%;
+    width: 75%;
+    text-align: left;
+}
+.text3{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.btn {
+    left: 15%;
+    top: 100%;
+    position: absolute;
+    height: 15%;
+    width: 75%;
+    border-radius: 10px;
+}
+.btn input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #5292ce;
+    color: #ffffff;
+    font-size: 20px;
+}
+@media (max-width:500px){
+    .txt1{
+        top: 60%;
+    }
+    .txt2{
+        top: 90%;
+    }
+    .btn{
+        top: 120%;
+    }
+}
+@media (max-width:260px){
+    .txt1{
+        top: 80%;
+    }
+    .txt2{
+        top: 110%;
+    }
+    .btn{
+        top: 140%;
+    }
+}
